@@ -1,0 +1,33 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "css",
+    "scss",
+    "html",
+    "json",
+    "go",
+    "lua",
+    "c-sharp",
+  ],
+  "cursors.nextKeys": "<tab>",
+  "tsserver.formatOnType": true,
+  "javascript.format.enabled": true,
+  "javascript.showUnused": true,
+  "javascript.autoClosingTags": true,
+  "javascriptreact.formatOnType": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.suggest.autoImports": true
+}
+{
+  "languageserver": {
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    }
+  }
+}
